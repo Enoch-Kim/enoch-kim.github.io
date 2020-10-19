@@ -3,6 +3,8 @@ name: "Enoch Kim's Blog"
 title: "Enoch Kim's Blog"
 description: "속 빈 강정이 되지 않기 위해, 밑바닥부터 다시 시작하는 테크 블로그"
 
+logo: assets/images/gopher.png
+icon: assets/images/gopher_icon.png
 baseurl:
 include: ["_pages"]
 permalink: /:title/

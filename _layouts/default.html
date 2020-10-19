@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<link rel="icon" href="https://github.com/{{ site.data.author.name }}.png">
+<link rel="icon" href="{{ site.baseurl }}/{{ site.icon }}">
 
 <title>{{ page.title }} | {{site.name}}</title>
 
@@ -47,7 +47,7 @@ ga('send', 'pageview');
 
     <!-- Begin Logo -->
     <a class="navbar-brand" href="{{ site.baseurl }}/">
-    <img src="https://github.com/{{ site.data.author.name }}.png" alt="{{ site.name }}">
+    <img src="{{ site.baseurl }}/{{ site.icon }}" alt="{{ site.name }}">
     </a>
     <!-- End Logo -->
 
@@ -101,6 +101,7 @@ ga('send', 'pageview');
 <!-- Site Title
 ================================================== -->
 <div class="mainheading">
+    <img src="{{ site.baseurl }}/{{ site.logo }}" width="500px" alt="site logo">
     <h1 class="sitetitle">{{ site.name }}</h1>
     <p class="lead">
         {{ site.description }}
