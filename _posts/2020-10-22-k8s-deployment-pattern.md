@@ -6,8 +6,9 @@ categories: [ Tech ]
 tags: [Kubernetes]
 image: assets/images/k8s-deployment-pattern.png
 description: "What is Deployment pattern??"
-featured: true
-hidden: true
+featured: false
+sitemap :
+  changefreq : weekly
 ---
 
 Deployment Pattern이란 Kubernetes의 Deployment를 사용하여 앱을 배포할때 배포하는 방식을 말한다. 예를들어 새로운 버전이 릴리즈 됐을 때,

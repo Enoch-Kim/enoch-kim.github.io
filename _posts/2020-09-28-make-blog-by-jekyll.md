@@ -7,7 +7,8 @@ tags: [Jekyll, Web]
 image: assets/images/jekyll-logo.png
 description: "Jekyll을 통해 블로그를 만드는 Tutorial"
 featured: true
-hidden: true
+sitemap :
+  changefreq : weekly
 ---
 **이 포스트는 테스트용으로 이 저장소에서 작성했기 때문에, [DSC UOS](https://dsc-university-of-seoul.github.io/) 블로그에도 동일한 포스트가 올라와 있습니다.**
 

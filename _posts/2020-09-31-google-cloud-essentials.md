@@ -7,7 +7,8 @@ tags: [GCP, Kubernetes, QwickLabs]
 image: assets/images/qwick-lab-gcp-essential.png
 description: "QwickLabs의 Google Cloud Essentials Review"
 featured: true
-hidden: true
+sitemap :
+  changefreq : weekly
 ---
 
 Google DSC에 가입했더니 QwickLabs Advanced Subscription을 줬다.(아싸~~~)

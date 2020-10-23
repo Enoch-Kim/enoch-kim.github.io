@@ -6,8 +6,9 @@ categories: [ Tech ]
 tags: [Kubernetes]
 image: assets/images/heterogeneous-multi-cloud.svg
 description: "What is Heterogeneous Deployment??"
-featured: true
-hidden: true
+featured: false
+sitemap :
+  changefreq : weekly
 ---
 
 **Google Cloud 공식문서의 글을 정리한 글이다.**
