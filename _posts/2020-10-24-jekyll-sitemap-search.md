@@ -15,7 +15,6 @@ sitemap :
 
 - jekyll-sitemap Plugin Setting
 - Google 검색엔진 노출
-- Naver 검색엔진 노출
 
 Jekyll로 블로그를 구성했지만 구글이나 네이버에서 검색했을 때, 검색결과에 내 블로그가 없는 것을 볼 수 있습니다.
 jekyll-sitemap plugin을 입력은 해놓고 등록을 해두지 않았기 때문입니다.
@@ -68,16 +67,3 @@ origin에 Push 하고 확인을 눌러줍니다.
 ![Capture](../assets/images/capture-google-webmaster-result.png)
 
 나머지 설정은 [jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap) 깃헙 페이지를 참고해주세요.
-
-### Naver 검색엔진 노출
-
-Naver 검색 엔진에 노출되기 위해서는 Google과 동일하게 [Naver Webmaster](https://searchadvisor.naver.com/console/board)에 등록해야합니다.
-
-![Capture](../assets/images/capture-naver-webmaster.png)
-
-위의 화면에서 http를 포함한 자신의 사이트를 등록해주세요.
-
-![Capture](../assets/images/capture-naver-webmaster-result.png)
-
-그럼 Google과 유사하게 html파일을 받으라고 할 것입니다. `root` directory에 위치시키고 origin에 Push 해줍시다.
-화면에 나와있는대로 url을 클릭하여 잘 작동되는지 확인한 후 소유확인 버튼을 클릭하면 끝 ~
