@@ -2,7 +2,7 @@
 layout: post
 title:  "QWICKLABS Google Cloud Essentials"
 author: Enoch-Kim
-categories: [ Tech ]
+categories: [ Review ]
 tags: [GCP, Kubernetes, QwickLabs]
 image: assets/images/qwick-lab-gcp-essential.png
 description: "QwickLabs의 Google Cloud Essentials Review"

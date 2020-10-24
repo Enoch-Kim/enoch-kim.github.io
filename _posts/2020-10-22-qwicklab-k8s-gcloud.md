@@ -2,7 +2,7 @@
 layout: post
 title:  "QWICKLABS Kubernetes in Google Cloud"
 author: Enoch-Kim
-categories: [ Tech ]
+categories: [ Review ]
 tags: [GCP, Kubernetes, QwickLabs]
 image: assets/images/qwick-lab-k8s-in-google.png
 description: "QwickLabs의 Kubernetes in Google Cloud Review"

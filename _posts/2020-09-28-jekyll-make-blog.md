@@ -5,12 +5,19 @@ author: Enoch-Kim
 categories: [ Tech ]
 tags: [Jekyll, Web]
 image: assets/images/jekyll-logo.png
-description: "Jekyll을 통해 블로그를 만드는 Tutorial"
+description: "Jekyll Themes 블로그 템플릿을 사용해 개인 블로그를 만들며 정리한 글 입니다."
 featured: true
 sitemap :
   changefreq : weekly
 ---
 **이 포스트는 테스트용으로 이 저장소에서 작성했기 때문에, [DSC UOS](https://dsc-university-of-seoul.github.io/) 블로그에도 동일한 포스트가 올라와 있습니다.**
+
+## Goal
+
+- Ruby를 사용한 Jekyll 설치
+- Jekyll Themes를 활용한 블로그 생성
+- Google Analytics 연동
+- Disqus 연동
 
 macOS 환경 기준입니다.
 macOS의 경우 Xcode가 설치돼있기 때문에 Ruby도 함께 설치되어 있어 바로 사용할 수 있습니다.

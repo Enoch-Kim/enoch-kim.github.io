@@ -5,7 +5,7 @@ author: Enoch-Kim
 categories: [ Tech ]
 tags: [Kubernetes]
 image: assets/images/k8s-deployment-pattern.png
-description: "What is Deployment pattern??"
+description: "Deployment pattern 에 관해 공부하고 정리한 글입니다."
 featured: false
 sitemap :
   changefreq : weekly

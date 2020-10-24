@@ -5,7 +5,7 @@ author: Enoch-Kim
 categories: [ Tech ]
 tags: [Kubernetes]
 image: assets/images/heterogeneous-multi-cloud.svg
-description: "What is Heterogeneous Deployment??"
+description: "Heterogeneous Deployment에 관해 공부하고 정리한 글입니다."
 featured: false
 sitemap :
   changefreq : weekly
