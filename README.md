@@ -7,3 +7,5 @@ TODO LIST
 - post 작성
 
 - git profile 정리
+
+**참고 : [mediumish-theme-jekyll](https://github.com/wowthemesnet/mediumish-theme-jekyll) 레포지터리에서 fork해서 사용했으나 commit contribution을 남기기 위해 새로운 레포지터리로 옮김**
