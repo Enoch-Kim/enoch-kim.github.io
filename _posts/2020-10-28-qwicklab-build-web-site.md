@@ -79,4 +79,15 @@ GCP에 다양한 플랫폼이 있어 무엇을 사용할 지 고민하던 중 �
     마지막으로 CDN (Content Delivery Network)를 사용하는데, 사용자가 HTTP request를 요청하면 이 요청은 GFE (Google Front End)에 도달해 우선적으로 CDN Cache를 확인한다. 그래서 동일한 요청에 대한 응답이 Cache에 있다면 해당 Request에 즉각적인 응답을 해 효율을 높여주고, 만약 없다면 백엔드로 보내 해당 요청을 처리한 후 response를
     CDN Cache에 저장한다.
 
-3.
+3. Deploy, Scale, and Update Your Website on Google Kubernetes Engine
+    Google Kubernetes Engine을 사용하여 웹을 띄워보는 코스. GKE Cluster를 생성한 후, 예시 레포의 deployment 템플릿을 사용하여 웹사이트를 배포한다. 배포 후에 LoadBalancer 서비스로 로드 밸런싱 연결을 해주고, Deployment 컨트롤러에 정의된 Rolling Update 방식으로 이미지를 변경하여 아주 기본적인 무중단 배포를 구현한다. (배포 시 고려할 점에 대한 설명이 없는 것이 아쉽다.) 또한, replicaset 수를 증가시키고 감소시키면서 스케일링 하는 것을 소개한다. (이것도 왜 그런 스케일링이 중요한지 설명이 없어 아쉽다.)
+
+    ![Image](../assets/images/qwick-lab-k8s-web.png)
+
+4. Migrating a Monolithic Website to Microservices on Google Kubernetes Engine
+    Google Kubernetes Engine에서 monolith하게 배포했던 웹사이트를 프론트와 벡엔드의 MicroArchitechture(~~라고 할 수 없는 간단한 아키텍처~~)로 migration 하는 것을 다룬다. 단순히 앱을 각각의 deployment로 배포한 후 service를 각각 연결시키는 것으로 끝난다.
+
+5. Build a Website on Google Cloud: Challenge Lab
+    지금까지 한것을 체크하는 코스. 위의 4번 내용을 시험받는다.
+
+많은 아쉬움이 남는 코스다. 여러 GCP 서비스를 설명해주는 것은 좋지만, 기본 개념 설명 없이 진행했고, 단순히 따라서 하는 것에 그치는 코스여서 개념을 모르면 도움이 안될 것 같다. 진행하면서 무슨 과정인지 이해 안가 코드를 볼 수 밖에 없었다.
