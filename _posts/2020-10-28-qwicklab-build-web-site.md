@@ -4,7 +4,7 @@ title:  "Build a Website on Google Cloud"
 author: Enoch-Kim
 categories: [ Review ]
 tags: [GCP, Kubernetes, QwickLabs]
-image: assets/images/qwick-lab-build-web-site.png
+image: assets/images/qwicklab-build-web-site/qwick-lab-build-web-site.png
 description: "QwickLabs의 Kubernetes in Google Cloud Review"
 featured: true
 sitemap :
@@ -20,7 +20,7 @@ GCP에 다양한 플랫폼이 있어 무엇을 사용할 지 고민하던 중 �
     [Cloud Run](https://cloud.google.com/run)의 경우 PaaS Service를 제공하는 것으로 보인다. [Google Knative](https://cloud.google.com/knative/)를 사용해서 Serverless하게 어플리케이션을 GKE Cluster에 Deploy해주고, 사용자는 오로지 프론트 코드만으로 구동하는 것 같다.
     (~~이외에도 scale to zero 등을 제공한다 하는데, Knative를 사용하니 다양한거 아닌가...~~)
 
-    ![Image](../assets/images/gcloud-cloud-build.png)
+    ![Image](../assets/images/qwicklab-build-web-site/gcloud-cloud-build.png)
 
     처음에는 Cloud Build를 통해 GCR(Google Container Registry)에 등록하는 법을 설명한다.
     Cloud Build를 사용하기 위해서는 api를 활성화(?)해야 한다.
@@ -74,7 +74,7 @@ GCP에 다양한 플랫폼이 있어 무엇을 사용할 지 고민하던 중 �
     MIG를 Autoscaling 해주는 설정을 하는데, 이때 Load Balancer의 Utilization에 따라서 실행한다. 예를들어
     utilization을 0.60으로 설정하면 Load Balancer가 60% 사용됐을 시 instance를 추가로 생성하는 역할을 해준다.
 
-    ![Image](../assets/images/google-compute-engine-architecture.svg)
+    ![Image](../assets/images/qwicklab-build-web-site/google-compute-engine-architecture.svg)
 
     마지막으로 CDN (Content Delivery Network)를 사용하는데, 사용자가 HTTP request를 요청하면 이 요청은 GFE (Google Front End)에 도달해 우선적으로 CDN Cache를 확인한다. 그래서 동일한 요청에 대한 응답이 Cache에 있다면 해당 Request에 즉각적인 응답을 해 효율을 높여주고, 만약 없다면 백엔드로 보내 해당 요청을 처리한 후 response를
     CDN Cache에 저장한다.
@@ -82,7 +82,7 @@ GCP에 다양한 플랫폼이 있어 무엇을 사용할 지 고민하던 중 �
 3. Deploy, Scale, and Update Your Website on Google Kubernetes Engine
     Google Kubernetes Engine을 사용하여 웹을 띄워보는 코스. GKE Cluster를 생성한 후, 예시 레포의 deployment 템플릿을 사용하여 웹사이트를 배포한다. 배포 후에 LoadBalancer 서비스로 로드 밸런싱 연결을 해주고, Deployment 컨트롤러에 정의된 Rolling Update 방식으로 이미지를 변경하여 아주 기본적인 무중단 배포를 구현한다. (배포 시 고려할 점에 대한 설명이 없는 것이 아쉽다.) 또한, replicaset 수를 증가시키고 감소시키면서 스케일링 하는 것을 소개한다. (이것도 왜 그런 스케일링이 중요한지 설명이 없어 아쉽다.)
 
-    ![Image](../assets/images/qwick-lab-k8s-web.png)
+    ![Image](../assets/images/qwicklab-build-web-site/qwick-lab-k8s-web.png)
 
 4. Migrating a Monolithic Website to Microservices on Google Kubernetes Engine
     Google Kubernetes Engine에서 monolith하게 배포했던 웹사이트를 프론트와 벡엔드의 MicroArchitechture(~~라고 할 수 없는 간단한 아키텍처~~)로 migration 하는 것을 다룬다. 단순히 앱을 각각의 deployment로 배포한 후 service를 각각 연결시키는 것으로 끝난다.

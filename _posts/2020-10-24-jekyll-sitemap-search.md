@@ -4,7 +4,7 @@ title:  "Jekyll Blog 검색엔진 노출하기"
 author: Enoch-Kim
 categories: [ Tech ]
 tags: [Jekyll, Web]
-image: assets/images/jekyll-logo.png
+image: assets/images/jekyll-sitemap-search/jekyll-logo.png
 description: "Jekyll 블로그를 Google과 Naver 검색엔진에 노출시키는 방법에 관해 정리한 글입니다."
 featured: false
 sitemap :
@@ -21,7 +21,7 @@ jekyll-sitemap plugin을 입력은 해놓고 등록을 해두지 않았기 때�
 
 Jekyll의 Site Map 속성이 무엇이냐구요?
 > Sitemaps are an easy way for webmasters to inform search engines about pages on their sites that are available for crawling. In its simplest form, a Sitemap is an XML file that lists URLs for a site along with additional metadata about each URL (when it was last updated, how often it usually changes, and how important it is, relative to other URLs in the site) so that search engines can more intelligently crawl the site.
-
+>
 > Web crawlers usually discover pages from links within the site and from other sites. Sitemaps supplement this data to allow crawlers that support Sitemaps to pick up all URLs in the Sitemap and learn about those URLs using the associated metadata. Using the Sitemap protocol does not guarantee that web pages are included in search engines, but provides hints for web crawlers to do a better job of crawling your site.
 
 요약하자면 검색엔진이 웹페이지를 크롤링할 때 사용하기 위한 정보입니다.
@@ -53,17 +53,17 @@ Plugin에 의해서 _site directory에 robot.txt가 자동으로 생성됩니다
 
 Google 검색 엔진에 블로그를 노출하기 위해서는 [Google Webmaster](https://www.google.com/webmasters/tools/home?hl=ko)에 블로그를 등록해야합니다.
 
-![Capture](../assets/images/capture-google-webmaster.png)
+![Capture](../assets/images/jekyll-sitemap-search/capture-google-webmaster.png)
 
 위 화면에서 오른쪽의 `URL 접두어`에 자신의 웹사이트를 `https`를 포함하여 입력합니다.
 
-![Capture](../assets/images/capture-google-webmaster2.png)
+![Capture](../assets/images/jekyll-sitemap-search/capture-google-webmaster2.png)
 
 그렇면 다음의 화면이 나올텐데요? 해당 xml 파일을 다운받아 `{github username}.github.io` repository의 root directory에 넣어줍니다.
 origin에 Push 하고 확인을 눌러줍니다.
 
 이제 한번 블로그 글 내용을 구글에서 검색해봅시다. 다음과 같이 잘 동작하는 것을 볼 수 있습니다.
 
-![Capture](../assets/images/capture-google-webmaster-result.png)
+![Capture](../assets/images/jekyll-sitemap-search/capture-google-webmaster-result.png)
 
 나머지 설정은 [jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap) 깃헙 페이지를 참고해주세요.

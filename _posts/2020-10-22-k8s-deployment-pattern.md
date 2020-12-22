@@ -4,7 +4,7 @@ title:  "Deployment Patterns in Kubernetes"
 author: Enoch-Kim
 categories: [ Tech ]
 tags: [Kubernetes]
-image: assets/images/k8s-deployment-pattern.png
+image: assets/images/k8s-deployment-pattern/k8s-deployment-pattern.png
 description: "Deployment pattern 에 관해 공부하고 정리한 글입니다."
 featured: true
 sitemap :
@@ -18,7 +18,7 @@ Deployment Pattern이란 Kubernetes의 Deployment를 사용하여 앱을 배포�
 
 #### Rolling Update Deployment Pattern
 
-![Rolling-Update](../assets/images/k8s-rolling-update.png)
+![Rolling-Update](../assets/images/k8s-deployment-pattern/k8s-rolling-update.png)
 
 Rolling Update Deployment는 모든 서버를 한번에 변경하는 것이 아닌 하나하나 단계적으로 변경하는 패턴이다.
 Load Balancer를 통해 트래픽을 하나씩 단계적으로 새로운 서버에 트래픽을 이동시켜 무중단 배포를 가능하게 한다.
@@ -30,7 +30,7 @@ Load Balancer를 통해 트래픽을 하나씩 단계적으로 새로운 서버�
 
 #### Canary Deployment Pattern
 
-![Canary-Deployment](../assets/images/k8s-canary-deployment.png)
+![Canary-Deployment](../assets/images/k8s-deployment-pattern/k8s-canary-deployment.png)
 
 Canary Deployment는 새로운 버전에 대한 테스트를 진행하고 싶을 때 사용하는 Deployment Pattern이다.
 Rolling Update와는 다르게 replicaset 전부를 변경하는 것이 아닌, 일부의 replicaset만을 새로운 버전으로 교체하여
@@ -41,7 +41,7 @@ Rolling Update와는 다르게 replicaset 전부를 변경하는 것이 아닌, 
 
 #### Blue / Green Deployment Pattern
 
-![Blue-Green-Deployment](../assets/images/k8s-blue-green-deployment.png)
+![Blue-Green-Deployment](../assets/images/k8s-deployment-pattern/k8s-blue-green-deployment.png)
 
 Blue/Green Deployment Pattern은 안전하게 downtime 없이 Deployment 할 때 사용하는 방식이다. (knative에서 사용하는 방식이다.)
 기존의 Deployment를 Blue라고 할 때, Green Deployment를 새로 생성한다.

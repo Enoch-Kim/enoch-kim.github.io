@@ -4,7 +4,7 @@ title:  "DSC University of Seoul Midterm Review"
 author: Enoch-Kim
 categories: [ "Review" ]
 tags: ["DSC UOS"]
-image: assets/images/dsc_full_logo.png
+image: assets/images/dsc-miterm-review/dsc_full_logo.png
 description: "Google DSC 서울시립대 동아리를 한 분기 진행한 리뷰입니다."
 featured: true
 sitemap :

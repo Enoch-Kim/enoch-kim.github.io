@@ -4,7 +4,7 @@ title:  "QWICKLABS Google Cloud Essentials"
 author: Enoch-Kim
 categories: [ Review ]
 tags: [GCP, Kubernetes, QwickLabs]
-image: assets/images/qwick-lab-gcp-essential.png
+image: assets/images/qwicklab-gcloud-essentials/qwick-lab-gcp-essential.png
 description: "QwickLabs의 Google Cloud Essentials Review"
 featured: false
 sitemap :
@@ -27,4 +27,4 @@ Google DSC에 가입했더니 QwickLabs Advanced Subscription을 줬다.(아싸~
 
 모든 과정을 마치니 다음과 같은 뱃지 인증이 생겼다. (본격적으로 k8s 공부하러 가야지~~~)
 
-![Capture](../assets/images/qwick-lab-gcp-essential-result.png)
+![Capture](../assets/images/qwicklab-gcloud-essentials/qwick-lab-gcp-essential-result.png)
