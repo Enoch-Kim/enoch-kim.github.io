@@ -6,7 +6,7 @@ categories: [ Review ]
 tags: [GCP, Kubernetes, QwickLabs]
 image: assets/images/qwick-lab-gcp-essential.png
 description: "QwickLabs의 Google Cloud Essentials Review"
-featured: true
+featured: false
 sitemap :
   changefreq : weekly
 ---

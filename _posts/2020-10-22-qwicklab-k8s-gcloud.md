@@ -6,7 +6,7 @@ categories: [ Review ]
 tags: [GCP, Kubernetes, QwickLabs]
 image: assets/images/qwick-lab-k8s-in-google.png
 description: "QwickLabs의 Kubernetes in Google Cloud Review"
-featured: true
+featured: false
 sitemap :
   changefreq : weekly
 ---

@@ -6,7 +6,7 @@ categories: [ Tech ]
 tags: [Kubernetes]
 image: assets/images/k8s-deployment-pattern.png
 description: "Deployment pattern 에 관해 공부하고 정리한 글입니다."
-featured: false
+featured: true
 sitemap :
   changefreq : weekly
 ---

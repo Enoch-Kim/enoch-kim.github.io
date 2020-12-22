@@ -6,7 +6,7 @@ categories: [ Tech ]
 tags: [Kubernetes]
 image: assets/images/heterogeneous-multi-cloud.svg
 description: "Heterogeneous Deployment에 관해 공부하고 정리한 글입니다."
-featured: false
+featured: true
 sitemap :
   changefreq : weekly
 ---

@@ -6,7 +6,7 @@ categories: [ Tech ]
 tags: [Jekyll, Web]
 image: assets/images/jekyll-logo.png
 description: "Jekyll 블로그를 Google과 Naver 검색엔진에 노출시키는 방법에 관해 정리한 글입니다."
-featured: true
+featured: false
 sitemap :
   changefreq : weekly
 ---

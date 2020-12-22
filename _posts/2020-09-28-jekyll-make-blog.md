@@ -6,7 +6,7 @@ categories: [ Tech ]
 tags: [Jekyll, Web]
 image: assets/images/jekyll-logo.png
 description: "Jekyll Themes 블로그 템플릿을 사용해 개인 블로그를 만들며 정리한 글 입니다."
-featured: true
+featured: false
 sitemap :
   changefreq : weekly
 ---
