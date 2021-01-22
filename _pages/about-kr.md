@@ -8,7 +8,7 @@ comments: true
 ##### Contacts
 
 - [Email](mailto:enochkim1220@gmail.com)
-- [Github](github.com/Enoch-Kim)
+- [Github](https://github.com/Enoch-Kim)
 
 ##### Interest
 
