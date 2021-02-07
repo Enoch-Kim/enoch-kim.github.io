@@ -72,4 +72,23 @@ docker search <image-name>
 docker pull <image-name>
 docker image ls
 
+# 도커 이미지의 image layer history를 확인
+docker image history <image-name>
+# 도커 이미지의 meta-data 확인
+docker image inspect <image-name>
+
+# image tag는 라벨일 뿐.. 새로운 라벨을 생성할 수 있다.
+# 내 레포로 라벨을 생성한 후 내 docker hub 등에 push할 수 있다. 
+# 하기 전에 docker login 필수 -> auth 정보는 cat ~/.docker/config.json 으로 확인해보자
+
+docker image tag <source image/:tag> <target image/:tag>
+docker image push <repo/image/:tag>
+
+# 도커가 사용하고 있는 공간 확인
+docker system df
+
+# 사용하지 않는 이미지 삭제
+docker image prune -a
+
+
 ```
