@@ -15,7 +15,7 @@ comments: true
 - OS & Network
 - DevOps & SRE
 - Docker & Kubernetes
-- MicroArchitecture
+- MicroService Architecture
 - Golang
 
 #### Experience
