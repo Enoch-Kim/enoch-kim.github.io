@@ -15,8 +15,8 @@ comments: true
 - OS & Network
 - DevOps & SRE
 - Docker & Kubernetes
-- MicroService Architecture
-- Golang
+- MSA
+- Golang, JS
 
 #### Experience
 

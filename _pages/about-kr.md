@@ -15,14 +15,14 @@ comments: true
 - OS & Network
 - DevOps & SRE
 - Docker & Kubernetes
-- MicroService Architecture
-- Golang
+- MSA
+- Golang, JS
 
 ##### Experience
 
 Kakao Corp, Pangyo, South Korea - Software Engineering Intern (7/2020 - 8/2020)
 
-- 클라우드 기술팀에서 k8s Cluster의 Event를 모니터링하는 서비스를 개발했습니다.
+- 클라우드 기술팀에서 인턴으로 근무하며 k8s Cluster의 Event를 모니터링하는 서비스를 개발했습니다.
 
 Carpum, Seoul, South Korea - Co-Founder & S/W Developer (1/2019 - 8/2019)
 
