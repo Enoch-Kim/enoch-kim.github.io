@@ -30,10 +30,10 @@ Carpum, Seoul, South Korea - Co-Founder & S/W Developer (1/2019 - 8/2019)
 
 ##### Project
 
-upkodah, Capstone Project, University of Seoul (11/2020 - 12/2020)
+upkodah, Personal Project, University of Seoul (11/2020 - 12/2020)
 [Github](https://github.com/upkodah/upkodah-api)
 
-- 부동산 매물을 크롤링하여 직장에서 원하는 거리에 존재하는 매물을 조건에 맞게 검색해주는 서비스를 개발했습니다.
+- 사용자의 직장에서 일정 출퇴근 시간을 가진 위치를 파악해, 편의시설 등의 조건에 따라 매물을 검색해주는 서비스를 개발했습니다.
 - API 서버 개발 및 CI/CD를 구현했습니다.
 - Python, Go.Gin, bash, GKE, CloudSQL, Kubernetes, Github, Slack
 
@@ -47,12 +47,13 @@ iinvita, Mobile Team, Carpum (6/2019 - 8/2019)
 [App Store](https://apps.apple.com/us/app/iinvita/id1484305881)
 [Google Play](https://play.google.com/store/apps/details?id=com.iinvita)
 
-- 대한민국의 외국인 노동자를 위한 모바일 서비스를 개발했습니다.
+- 대한민국의 외국인 노동자들의 처우 개선을 위한 정보를 제공하고, 그들이 서로 간에 일자리에 관한 정보를 공유하고 소통하는 서비스를 개발했습니다.
 - Node.js, React Native, Gitlab, Trello, Slack
 
 ##### Other Experience
 
 Google DSC University of Seoul, Seoul, South Korea - Core Member (9/2020 - Present)
 
-- DSC 서울시립대의 Core 멤버로 활동하고 있습니다.
+- DSC University of Seoul의 Core 멤버로 활동하고 있습니다.
+- DSC University of Seoul의 Blog 운영진을 맡고 있습니다.
 - 모바일 팀의 리드를 맡고 있습니다.

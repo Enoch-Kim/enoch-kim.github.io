@@ -53,5 +53,5 @@ iinvita, Mobile Team, Carpum (6/2019 - 8/2019)
 
 Google DSC University of Seoul, Seoul, South Korea - Core Member (9/2020 - Present)
 
-- Lead and Manage Mobile Development Team
 - Co-Manage DSC University of Seoul
+- Lead and Manage Mobile Development Team
